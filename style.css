@@ -1,0 +1,503 @@
+*{
+    margin-right: 0;
+    margin-left: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo{
+    margin-left: 241px;
+}
+.topnav{
+    display: flex;
+    border-bottom: 1px  solid rgba(212, 212, 212, 0.591);
+}
+ul{
+    margin:0;
+    margin-left: 100px;
+    display: flex;
+    flex-direction: row;
+}
+
+li{
+    list-style: none;
+ }
+
+ .subdiv{
+    position: relative;
+    display: flex;
+    gap: 5px;
+    margin-top: 20px;
+    margin-left: 25px;
+ }
+
+ .bsubdiv{
+    position: relative;
+    display: flex;
+    gap: 5px;
+    margin-top: 20px;
+    margin-left: 5px;
+    padding: 10px;
+ }
+ .para{
+    font-size: 11px;
+    font-weight: 400;
+    display: block;
+    position: relative;
+    bottom: 11px;
+    right: 21px;
+ }
+.logside{
+    display: flex;
+    margin-top: 8px;
+    margin-left: 26px;
+}
+button{
+    margin-left: -40px;
+    height: 30px;
+    width: 120px;
+}
+.bsubdiv:hover{
+    height: 20px;
+    width: auto;
+    background-color: #d7f1f9;
+    border-radius: 5px;
+}
+.bottomnav{
+    margin-left: 100px;
+}
+
+.content{
+    height: 230px;
+    width: 100%;
+    background-image: linear-gradient(to right, #2F80ED, #56CCF2);
+}
+
+
+
+.searchHeader {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.tabs {
+    color: white;
+    font-size: 12px;
+    position: relative;
+    right: 330px;
+    display: flex;
+    gap: 20px;
+}
+
+.tab1 {
+    padding: 10px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.tab1:hover {
+    padding: 10px;
+    background-color: #ffffff;
+    color: black;
+    border-radius: 50px;
+}
+
+.slp{
+    position: relative;
+    font-size: 20px;
+    font-weight: 900;
+    cursor: pointer;
+    left: 620px;
+}
+
+.search{
+    display: flex;
+    gap: 10px;
+    width: 1100px;
+    height: 100px;
+    border-radius: 5px;
+    position: relative;
+    left: 270px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 4px 5px rgba(0, 0, 0, 0.080)
+    
+}
+
+.topsearch{
+    position: relative;
+    right: 90px;
+}
+.frmstate{
+    width: 250px;
+    height: auto;
+    padding-left:10px;
+    padding-top: 2px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-right: 1px solid rgba(195, 195, 195,0.329);
+}
+#top{
+    font-size: 12px;
+    padding-left: 2px;
+    color: #7e7979;
+}
+#btm{
+    font-size: 11px;
+    padding-top: 3px;
+    margin: 0;
+}
+#cntr{
+    font-size: 26px;
+    margin: 0;
+}
+.tostate{
+    border-right: 1px solid rgba(195, 195, 195, 0.329);
+}
+
+#monthyr{
+    position: relative;
+    bottom: 32px;
+    left: 20px;
+    font-size: 13px;
+    font-weight: 500;
+}
+#cal{
+    position: relative;
+    left: 90px;
+    bottom: 66px;
+}
+
+#cal1{
+    position: relative;
+    left: 102px;
+    bottom: 35px;
+}
+#arw{
+    position: relative;
+    left: 80px;
+    bottom: 69px;
+}
+#arwrl{
+    position: relative;top: 50px;left: 270px;
+}
+#arw:hover{
+    cursor: pointer;
+}
+
+#ddate{
+    border-right: 1px solid rgba(195, 195, 195, 0.329);
+    padding-right: 5px;
+}
+.top1{
+    width: 100px;
+}
+.rtnd{
+    border-right: 1px solid rgba(195, 195, 195, 0.329);
+    padding-right: 30px;
+}
+#travel{
+    /* border-right: 1px solid rgba(195, 195, 195, 0.329); */
+    padding-right: px;
+}
+#trvlcls{
+    position: relative;
+    bottom: 38px;
+    left: 15px;
+    font-size: 13px;
+    font-weight: 500;
+}
+.frmstate:hover{
+    background-color: #eff8ff;
+}
+.tostate:hover{
+    background-color: #eff8ff;
+}
+#travel:hover{
+    background-color: #eff8ff;
+}
+#ddate:hover{
+    background-color: #eff8ff;
+}
+.rtnd:hover{
+    background-color: #eff8ff;
+}
+
+.searchbtn{
+    width: 211px;
+    cursor: pointer;
+    background: #ef6614;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.searchbtn:hover{
+    background-color: #b54d11 ;
+}
+
+.optn{
+    position: relative;
+    left: 266px;
+    padding-top: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    display: flex;
+    gap: 15px;
+    color: white;
+} 
+#rdo{
+    padding: 5px;
+}
+
+#rdo:hover{
+    background-color: #d7f7ff3d;
+    cursor: pointer;
+    border-radius: 15px;
+    
+}
+.offers{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    font-size: 26px;
+}
+
+.triwings{
+    position: relative;
+    top: -10px;
+}.addoffer{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.ofr1{
+    padding: 5px;
+    font-weight: 600;
+    border-radius: 15px;
+    width: auto;
+}
+.ofr1:hover{
+    background-color: #3a89f1;
+    color: white;
+    cursor: pointer;
+}
+.box{
+    height: 150px;
+    width: 100%;
+    display: flex;
+    gap: 25px;
+}
+.boxin{
+    height: 235px;
+    width: 50px;
+    /* background-color: #df6b6b; */
+    background: linear-gradient(180deg, rgb(242, 242, 242) 8%, rgb(241, 248, 255) 100%);
+    padding: 10px;
+    box-shadow: 0 0 7px rgb(0 -1 6 / 6%) inset;
+    margin: 10px 0;
+    width: 100%;
+    border-radius: 15px;
+    border: 1px solid #F5F5F5;
+}
+
+.boxtopin{
+    height: 170px;
+    width: 350;
+    border-radius: 15px;
+    background-image: linear-gradient(to right, #2273ef, #91fff9);
+}
+
+#ofrtop{
+    font-size: 16px;
+    font-weight: 600;
+    position: relative;
+    left: 15px;
+    top: 15px;
+    color: white;
+}
+#ofrmdl{
+    font-size: 30px;
+    font-weight: 600;
+    position: relative;
+    left: 15px;
+    top: 25px;
+    color: white;
+}
+
+#picicon{
+    height: 150px;
+    position: relative;
+    left: 235px;
+    bottom: 86px;
+    border-radius: 45% 45% 0 0;
+    box-shadow: 0 0 7px rgb(0 0 0 / 20%);
+}
+#boxbtm1{
+    font-size: 13px;
+    font-weight: 600;
+    position: relative;
+    top:6px;
+}
+#boxbtm2{
+    font-size: 12px;
+    color: #5C6472;
+    position: relative;
+    top:15px;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+}
+.btn1{
+    margin-left: -40px;
+    height: 50pxpx;
+    width: 120px;
+    padding: 5px;
+    margin-bottom: 25px;
+    text-align: center;
+    position: relative;
+    top: 150px;
+    border-radius: 15px;
+    color: white;
+    background-color: #2273ef;
+}
+.innerwrap{
+    width: 1200px;
+    height: 136px;
+    margin: auto;
+    padding: 5px 0;
+}
+.refund{
+    width: 75%;
+    height: 120px;
+    border-radius: 15px;
+    position: relative;
+    top:150px;
+    background-image: linear-gradient(to right, #76c6f5, #62aceb, #31d2c2, #12c29f);
+}
+#rfdimg{
+    height: 70px;
+    position: relative;
+    top: 25px;
+    left: 25px;
+}
+.rfdtxt{
+    position: relative;
+    left: 150px;
+    top: 55px;
+    display: flex;
+    justify-content: start;
+}
+#rfdtxt1{
+    font-size:24px;
+    font-weight: 600;
+    color: white;
+}
+#rfdtxt2{
+    position: relative;
+    top: 35px;
+    left: -310px;
+    padding-bottom: 3px;
+    color: white;
+    font-size: 13px;
+}
+#rfdimg1{
+    height: 6px;
+    position: relative;
+    bottom: 2px;
+    padding-right: 5px;
+}
+#rfdimg2{
+    height: 70px;
+    position: relative;
+    right: 170px;
+}
+#rfdtxt3{
+    position: relative;
+    top: 76px;
+    left: -250px;
+    padding-bottom: 3px;
+    color: white;
+    font-size: 12px;
+}
+
+#rfdimgright{
+    height: 119px;
+    position: relative;
+    bottom: 40px;
+    border-radius: 15px;
+    left: 1050px;
+}
+.fltrt{
+    height: 600px;
+    width: 100%;
+    position: relative;
+    top:200px;
+    background: url(https://images.emtcontent.com/desk-img/bg-world-map.jpg) center / 90% no-repeat;
+    width: 100%;
+}
+.fltrts{
+    display: flex;
+    justify-content: center;
+    font-size: 26px;
+}
+
+.citybx{
+    width:100%;
+    padding: 5px;
+    position: relative;
+    left: 150px;
+}
+.ctbx{
+    display: flex;
+}
+.citybx:hover{
+    cursor: pointer;
+}
+#frmto{
+    position: relative;
+    left: 70px;
+    bottom: 60px;
+    font-size:20px;
+    font-weight:500;
+}
+#cmdwn{
+    position: relative;
+    left: 70px;
+    bottom: 60px;
+    color: #2196f3;
+    font-size:18px;
+    font-weight:600;
+}
+.infobox{
+    height: 90px;
+    width: 600px;
+    border-radius:55px 5px 5px 5px ;
+    background-color: #fcfeff;
+    box-shadow: 0 0 9px rgb(0 -1 6 / 6%) inset;
+}
+.infoin{
+    width: 540px;
+}
+#infoimg{
+    position: relative;
+    padding: 30px;
+    border-radius: 55px 0px 100px 0px;
+    background-color: #aed3e099;
+}
+#info1{
+    position: relative;bottom:80px;left: 140px;
+}
+
+.inforow{
+    display: flex;
+    justify-content: space-around;
+}
+.info:hover{
+    cursor: pointer;
+}
